@@ -1,22 +1,8 @@
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .card-body{
-      background-color:50%;
-      height:30%}
-
+body{
+margin:0;}
+  .first{
+  background-image:url("hero.jpg");
+  }
 
       .card-deck{
       padding:50px;
@@ -36,21 +22,21 @@
 
     .fourth{
     background:grey;
+    margin:0;
     }
 
   #footer{
   background:grey;
   color:white;
-  padding:70px;
+  margin:0;
   }
 
   .second{
-  background:pink;
-  height:80px;}
+  background:#feedde;
+ }
 
 
-  #first{
-  }
+
 
   #footerf{
   color:white;
@@ -60,3 +46,28 @@
 
   .card{
   background:#bdbdbd;}
+
+
+  #about-us{
+  background:url(assets/products/pants.png);
+  }
+
+
+  #btn{
+  float: right;
+  vertical-align: justify;
+  background-color:#a63603;}
+
+  #second{
+  padding:40px;
+  vertical-align:middle;}
+
+  .man{
+ h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+
+
+  }
+

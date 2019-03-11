@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="first" >
+<body id="body">
+<div class="first_" >
     <div class="columns small-12">
 
-        <img src="assets/backgrounds/hero.jpg" id="first">
+        <img src="assets/backgrounds/hero.jpg" id="first" <style "margin:0"></style>
         <h1></br></br>Yolomy </br> Our clothing, your comfort</h1></br>
         <p>When you work with us, you are part of the team of committed collaborators.</br> All aspects of our software development process are intergrated, iterative and agile.</p></p>
         <br />
@@ -29,18 +29,21 @@
     </div>
 </div>
 <br />
-<div class="second" >
-    <form>
-        <input type="checkbox" name="men" value="men"> MEN
+<div class="second" id="second">
+    <!--<form>-->
+        <input type="checkbox" name="men" value="men"> MEN &nbsp;
         <input type="checkbox" name="women" value="women"> WOMEN
         <input type="checkbox" name="children" value="children"> CHILDREN
-        <button type="button" class="btn btn-danger">SEE ALL PRODUCTS </button>
-    </form>
+        <button type="button" class="btn btn-danger" id="btn">SEE ALL PRODUCTS </button>
+    <!--</form>-->
 
 </div>
 <!--About us-->
+<br />
+<div>
 
-<hr align="left"><p>Women</p>
+  <p align="left">MEN<hr width="90%" align="right"/></p>
+</div>
 
 <div class="card-deck">
     <div class="card">
@@ -70,7 +73,12 @@
         <small class="text-right">60,00€</small>
     </div>
 </div>
-<p align="left">MEN<hr></p>
+<div>
+<p><hr width="90%"/>WOMEN</p>
+
+</div>
+
+
 <div class="card-deck">
     <div class="card">
                <p><small class="text">SIZE</small><img src="assets/mouse_click.png" width="20px" height="20px" align="middle"></p>
@@ -101,10 +109,22 @@
         <small class="text-right">20,00 €</small>
     </div>
 </div>
+<br />
+
+<div class="row" id="about-us">
+    <div class="columns small-12">
+        <!--<img src="assets/backgrounds/about.jpg", class="panel callout small-12 index">-->
+
+        <img src="assets/backgrounds/about.jpg">
+
+
+    </div>
+
+
+</div>
 
 <div class="row" id="footerf">
     <div class="columns small">
-        <!--<h6><img src="assets/social_icons/twitter_bird.png" width="42" height="42" align="middle">*SALE: Buy anything for 45% off. Use the promotion CODE YOLOMYS4S when you buy items* </h6>-->
         <h6 align="middle"><img src="assets/social_icons/twitter_bird.png" align="middle">*SALE: Buy anything for 45% off. Use the promotion CODE YOLOMYS4S when you buy items* </h6>
 
     </div>
