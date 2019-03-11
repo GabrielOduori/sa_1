@@ -14,4 +14,49 @@
       }
 
       .card-body{
-      background-color:50%;}
+      background-color:50%;
+      height:30%}
+
+
+      .card-deck{
+      padding:50px;
+     }
+
+     .first{
+     background:}
+
+      #item-name{
+      vertical-align: baseline;}
+
+
+
+    .two{
+    background-color:red;}
+
+
+    .fourth{
+    background:grey;
+    }
+
+  #footer{
+  background:grey;
+  color:white;
+  padding:70px;
+  }
+
+  .second{
+  background:pink;
+  height:80px;}
+
+
+  #first{
+  }
+
+  #footerf{
+  color:white;
+  background:#636363;
+  height:40px;
+  vertical-align: middle;}
+
+  .card{
+  background:#bdbdbd;}
